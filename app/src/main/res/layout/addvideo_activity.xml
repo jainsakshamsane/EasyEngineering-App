@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#008080"
+                android:textStyle="bold"
+                android:id="@+id/text"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#707070"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Add your course details here." />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:id="@+id/uploadvideo"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/upload" />
+
+            <VideoView
+                android:id="@+id/VideoView"
+                android:layout_below="@+id/layout_button"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_below="@id/linear1"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Course Name"
+                android:id="@+id/coursename"
+                android:background="@drawable/login"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:padding="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:hint="Price (in rupees)"
+                android:id="@+id/price"
+                android:background="@drawable/login"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/linear2"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Course Details"
+                android:id="@+id/details"
+                android:background="@drawable/login"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear3"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/savedetails"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/logoutbutton"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="UPLOAD COURSE" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/logout"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/purchase_button"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="LOGOUT" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/engineers"
+        android:label="Easy Engineering"
+        android:roundIcon="@drawable/engineers"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Onlineeng"
+        tools:targetApi="31">
+        <activity
+            android:name=".FlashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginRegisterActivity"></activity>
+        <activity android:name=".AddvideoActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".PurchasePageActivity"></activity>
+        <activity android:name=".VideoPlayerActivity" android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor"></activity>
+    </application>
+
+</manifest>

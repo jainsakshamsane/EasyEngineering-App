@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "677971898629",
+    "project_id": "easyengineering-2d1f6",
+    "storage_bucket": "easyengineering-2d1f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677971898629:android:6fb119a085f56d0bd0c76c",
+        "android_client_info": {
+          "package_name": "com.easyengineering"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDUsor3fdpoA06faFYylxTZ3uoexRBEKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

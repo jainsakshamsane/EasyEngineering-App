@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/purchasebg"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:id="@+id/linear2" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/back"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Details"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#727171" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#707070" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/videooo"
+            android:layout_marginTop="20dp"
+            android:id="@+id/video" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Package Name"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#727171" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GATE 2021"
+            android:id="@+id/coursename"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#727171" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13000"
+            android:id="@+id/description"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Duration"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#727171" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13000"
+            android:id="@+id/duration"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/linear2"
+        android:background="@drawable/purchasebg"
+        android:orientation="horizontal"
+        android:id="@+id/linear4" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grand Total"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#727171" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13000"
+            android:id="@+id/price"
+            android:layout_marginLeft="50dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#3d53be" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_below="@+id/linear4"
+        android:orientation="vertical"
+        android:id="@+id/linear5" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note - You will get a watch time equal to the above mentioned duration. To extend that, you need to renew your course again."
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#727171" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/purchase"
+        android:text="Checkout"
+        android:background="@drawable/purchase_button"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

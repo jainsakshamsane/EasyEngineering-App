@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="loginTabTextColor">#FFFFFF</color> <!-- White text color for login tab -->
+    <color name="registerTabTextColor">#000000</color> <!-- Black text color for register tab -->
+    <color name="loginTabBackgroundColor">#3d53be</color> <!-- Red background color for login tab -->
+    <color name="registerTabBackgroundColor">#008080</color> <!-- Green background color for register tab -->
+</resources>

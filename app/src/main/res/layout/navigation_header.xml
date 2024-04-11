@@ -1,0 +1,43 @@
+<!-- navigation_header.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="145dp"
+    android:background="@drawable/bordered_background"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aryush"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/name"
+        android:textColor="#3d53be"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  9893707894"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/baseline_call_24"
+            android:id="@+id/phone"
+            android:textStyle="bold"
+            android:textColor="#3d53be"
+            android:textSize="20dp"
+            android:layout_marginLeft="0dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

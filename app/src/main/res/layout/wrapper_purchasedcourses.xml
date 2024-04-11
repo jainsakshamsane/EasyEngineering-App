@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/purchasebg"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:id="@+id/linear2" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GATE 2021"
+            android:id="@+id/coursename"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="Watch Time alloted - 00:10:00 hrs"
+            android:id="@+id/purchasedtime"
+            android:textSize="15dp"
+            android:textColor="#717171" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Watch Time alloted - 00:10:00 hrs"
+            android:id="@+id/price"
+            android:textSize="15dp"
+            android:textColor="#717171" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Watch Time alloted - 00:10:00 hrs"
+            android:id="@+id/lasttime"
+            android:textSize="15dp"
+            android:textColor="#717171" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/unlockk"
+        android:id="@+id/video" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="right"
+        android:layout_below="@+id/linear2"
+        android:orientation="horizontal"
+        android:id="@+id/linear1" >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/donotplay"
+            android:id="@+id/donotplay" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/playyyy"
+            android:id="@+id/purchase" />
+
+    </LinearLayout>
+
+</RelativeLayout>
